@@ -10,11 +10,11 @@ function meuEscopo(){
         const altura = Number(inputAltura.value);
         const imc = peso / (altura ** 2);
         if (!peso){
-            setResultado('Peso invalido', false);
+            setResultado('Peso inválido', false);
             return;
         }
         if(!altura) {
-            setResultado('Altura invalida', false);
+            setResultado('Altura inválida', false);
             return;
         }
         console.log(imc);
